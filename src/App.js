@@ -8,14 +8,7 @@ import SignIn from './components/SignIn';
 
 
 const firebaseApp = initializeApp({
-  apiKey: "AIzaSyCLd0T2lGqthD228hTvXo1iA8_RN8ympjg",
-  authDomain: "javascript-app-97710.firebaseapp.com",
-  databaseURL: "https://javascript-app-97710-default-rtdb.firebaseio.com",
-  projectId: "javascript-app-97710",
-  storageBucket: "javascript-app-97710.appspot.com",
-  messagingSenderId: "530185312849",
-  appId: "1:530185312849:web:0d51e01d3667a9885c3670",
-  measurementId: "G-2S4RXSVPYQ"
+  // Your Config
 });
 
 function App() {
