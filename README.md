@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# A Chat App built using React and Firebase
+[Live Website](https://javascript-app-97710.web.app/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
