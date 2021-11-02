@@ -1,0 +1,28 @@
+.signin {
+  min-height: calc(100vh - 4rem);
+  max-height: calc(100vh - 4rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin button {
+  font-family: "Balsamiq Sans", cursive;
+  background-color: black;
+  color: #f2f013;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem 1.2rem 0.5rem;
+  border-radius: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+}
+
+.signin button:active {
+    transform: scale(1.2);
+}
+
+.signin button svg {
+  transform: translateY(5px);
+}

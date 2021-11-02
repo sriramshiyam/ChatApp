@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+.App {
+  height: 100vh;
+  width: 700px;
+  max-width: 100vw;
+  background-color: #2fdd92;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+header {
+  height: 4rem;
+  background-color: #34be82;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-basis: 0;
+  position: relative;
+}
+
+h2 {
+  font-family: "Balsamiq Sans", cursive;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  margin-left: 1rem;
+}
+
+.type {
+  position: absolute;
+  height: 5rem;
+  left: 50%;
+  bottom: 0.5rem;
+  transform: translateX(-50%);
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 95%;
+  background-color: #34be82;
+  border-radius: 20px;
+}
+
+.type input {
+  width: 75%;
+  height: 4rem;
+  outline: none;
+  border: none;
+  font-family: "Balsamiq Sans", cursive;
+  background-color: transparent;
+  padding-left: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+.type svg {
+  width: 15%;
+  height: 4rem;
+  fill: azure;
+  stroke: #34be82;
+  stroke-width: 2rem;
+  transition: all 0.2s;
+}
+
+.type svg:active {
+  transform: scale(1.2);
+}
+
+.type input::placeholder {
+  color: white;
+  font-size: 1.5rem;
+}
+
+header .signout {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  font-family: "Balsamiq Sans", cursive;
+  background-color: black;
+  color: #f2f013;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem 0.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+}
+
+.signout svg {
+  transform: translateY(2.5px);
+}
+
+@media screen and (max-width: 480px) {
+  h2{
+    font-size: 1.2rem;
+  }
+}

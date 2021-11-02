@@ -1,0 +1,52 @@
+.chatroom {
+  min-height: calc(100vh - 9rem);
+  max-height: calc(100vh - 9rem);
+  font-family: "Balsamiq Sans", cursive;
+  overflow: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.chatroom::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.chatroom::-webkit-scrollbar-track {
+  background: #34be82;
+}
+
+.chatroom::-webkit-scrollbar-thumb {
+  background: #f2f013;
+}
+
+.chat:nth-child(1) {
+  align-self: center;
+}
+
+.chat {
+  background-color: #f2f013;
+  color: black;
+  width: auto;
+  display: inline-block;
+  padding: 0.5rem 1rem 0.5rem;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  max-width: 12rem;
+  overflow-wrap: break-word;
+}
+
+.chat small {
+  white-space: nowrap;
+  transform: translateY(-25px);
+  display: inline-block;
+}
+
+.chat img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
